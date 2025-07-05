@@ -1,0 +1,9 @@
+import java.util.Scanner;
+class welcome{
+    public static void main(String[] args){
+        Scanner shan=new Scanner(System.in);
+        System.out.print("Enter the Data : ");
+        String G=shan.nextLine();
+          System.out.print("welcome"+G);
+    }
+}

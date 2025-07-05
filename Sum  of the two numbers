@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class sum{
+    public static void main(String[] args){
+        Scanner shan= new Scanner(System.in);
+        System.out.print("Enter the value a : ");
+        int a=shan.nextInt();
+        System.out.print("Enter the value b : ");
+        int b=shan.nextInt();
+        int d=a+b;
+        System.out.print("The sum of"+a+"and"+b+"is"+d);
+    }
+}
